@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "259824371695",
+    "project_id": "sell-by-hec-20102",
+    "storage_bucket": "sell-by-hec-20102.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:259824371695:android:d402b4a4df592a28ead81a",
+        "android_client_info": {
+          "package_name": "com.example.sell_by_hec"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "259824371695-b79keia1062pvjb3vaf8hmchiiub6qpo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJFO9hHvdWS7Zvbj-sgibD8uc-OwCOpTY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "259824371695-b79keia1062pvjb3vaf8hmchiiub6qpo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

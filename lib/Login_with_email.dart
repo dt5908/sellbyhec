@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:adobe_xd/pinned.dart';
+import 'package:flutter_sizer/flutter_sizer.dart';
 import './button_connexion.dart';
 import './dashboard.dart';
 import 'package:adobe_xd/page_link.dart';
@@ -7,6 +8,7 @@ import './logininputfield.dart';
 import './login_with_number.dart';
 import './Inscription.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+
 
 class Login_with_email extends StatelessWidget {
   Login_with_email({
@@ -90,8 +92,8 @@ class Login_with_email extends StatelessWidget {
             ),
           ),
           Pinned.fromPins(
-            Pin(start: 53.0, end: 43.0),
-            Pin(size: 27.0, middle: 0.3127),
+            Pin(start: 8.w, end: 8.w),
+            Pin(size: 27.0, middle: 0.28),
             child: Text(
               'Entrez vos informations de connexion',
               style: TextStyle(

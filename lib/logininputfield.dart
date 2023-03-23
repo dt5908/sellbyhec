@@ -42,20 +42,7 @@ class logininputfield extends StatelessWidget {
             softWrap: false,
           ),
         ),
-        Pinned.fromPins(
-          Pin(size: 0.0, start: 136.0),
-          Pin(size: 0.0, end: 0.0),
-          child: Text(
-            '',
-            style: TextStyle(
-              fontFamily: 'Nunito',
-              fontSize: 14,
-              color: const Color(0xff000000),
-            ),
-            textAlign: TextAlign.center,
-            softWrap: false,
-          ),
-        ),
+      
         Pinned.fromPins(
           Pin(size: 272.0, start: 56.0),
           Pin(size: 46.0, start: 145.0),
@@ -91,25 +78,9 @@ class logininputfield extends StatelessWidget {
             softWrap: false,
           ),
         ),
+        
         Align(
-          alignment: Alignment(-0.583, -0.332),
-          child: SizedBox(
-            width: 6.0,
-            height: 27.0,
-            child: Text(
-              '|',
-              style: TextStyle(
-                fontFamily: 'Nunito',
-                fontSize: 20,
-                color: const Color(0xff000000),
-              ),
-              textAlign: TextAlign.center,
-              softWrap: false,
-            ),
-          ),
-        ),
-        Align(
-          alignment: Alignment(0.603, -0.328),
+          alignment: Alignment(0.683, -0.268),
           child: SizedBox(
             width: 25.0,
             height: 25.0,

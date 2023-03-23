@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:adobe_xd/pinned.dart';
+import 'package:flutter_sizer/flutter_sizer.dart';
 
 class Splash extends StatelessWidget {
   Splash({
@@ -13,7 +14,7 @@ class Splash extends StatelessWidget {
         children: <Widget>[
           Pinned.fromPins(
             Pin(start: 0.0, end: 0.0),
-            Pin(size: 200.0, middle: 0.5),
+            Pin(size: 43.h, middle: 0.5),
             child: Container(
               constraints: BoxConstraints(maxWidth:100.0,
               maxHeight: 100.0 ),
