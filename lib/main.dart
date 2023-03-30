@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_sizer/flutter_sizer.dart';
+import 'package:sell_by_hec/Login_with_email.dart';
+import 'package:sell_by_hec/login_Nouveau_with_email.dart';
 import 'package:sell_by_hec/splash.dart';
 import 'Login_with_email1.dart';
 
@@ -30,7 +32,7 @@ class MyApp extends StatelessWidget {
           // is not restarted.
           primarySwatch: Colors.blue,
         ),
-        home: Login_with_email1(),
+        home: Login_with_email_new(),
       );}
     );
   }

@@ -9,10 +9,19 @@ import './login_with_number.dart';
 import './Inscription.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
-class Login_with_email1 extends StatelessWidget {
+class Login_with_email1 extends StatefulWidget {
   Login_with_email1({
     Key? key,
   }) : super(key: key);
+
+  @override
+  State<Login_with_email1> createState() => _Login_with_email1State();
+}
+
+class _Login_with_email1State extends State<Login_with_email1> {
+ TextEditingController _emailcontroller = TextEditingController();
+ TextEditingController _passwordcontroller = TextEditingController();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
